@@ -1,0 +1,20 @@
+{
+  "author": "Geoffrey Grosenbach <boss@topfunky.com> (http://peepcode.com)",
+  "name": "bug-mocha-watch",
+  "description": "A demo project to show a bug in running mocha with --watch",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "mocha": "~0.14.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
